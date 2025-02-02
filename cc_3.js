@@ -28,3 +28,30 @@ console.log(employee)
 employee.promotionEligible = false     //Edward is not getting promoted
 console.log(employee)
 
+//Task 4
+let feedback = [
+    {
+    customerName: "Karen",   
+    feedbackText: "WORST Service EVER",
+    rating: 1
+},
+    {
+    customerName: "Alice",
+    feedbackText: "Good place to have lunch",
+    rating: 5
+},
+    {
+    customerName: "Muhammad",
+    feedbackText: "Eat here every Tuesday!",
+    rating: 5    
+
+}]
+//adding a new object to feedback
+feedback.push({
+    customerName: "Thomas",
+    feedbackText: "Pretty good",
+    rating: 4
+})
+
+console.log(feedback)
+
