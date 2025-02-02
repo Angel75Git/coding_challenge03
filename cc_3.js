@@ -16,3 +16,15 @@ console.log(orders);
 let total = orders.reduce((sum, order) => sum + order, 0);     
 console.log("Total orders:",total)          
 
+//Task 3
+let employee = {
+    name: "Edward",
+    role: "Manager",
+    performanceScore: 89,
+    isActive: true
+};
+employee.performanceScore = 76       //Edward missed a deadline, so his score went down
+console.log(employee)
+employee.promotionEligible = false     //Edward is not getting promoted
+console.log(employee)
+
