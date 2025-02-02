@@ -51,7 +51,18 @@ feedback.push({
     customerName: "Thomas",
     feedbackText: "Pretty good",
     rating: 4
-})
+});
 
-console.log(feedback)
+console.log(feedback);
 
+//Task 5
+let inventory = {
+    itemName: "laptop",
+    stockCount: 52, 
+    price: 199.99,
+    calculateTotalValue: function(){
+        return this.price * this.stockCount;
+    }
+};
+console.log("Inventory:",inventory);
+console.log(inventory.calculateTotalValue());
